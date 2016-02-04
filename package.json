@@ -1,0 +1,19 @@
+{
+  "name": "material-ui-webpack-with-external-react",
+  "version": "1.0.0",
+  "description": "Material UI + Webpack with react as external",
+  "scripts": {
+    "build-good": "copyfiles -f ./src/index.html ./dist && webpack --config=webpack.config-good.js",
+    "build-bad": "copyfiles -f ./src/index.html ./dist && webpack --config=webpack.config-bad.js"
+  },
+  "author": "vasconita",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^0.2.1",
+    "material-ui": "^0.14.4",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-tap-event-plugin": "^0.2.2",
+    "webpack": "^1.12.12"
+  }
+}
