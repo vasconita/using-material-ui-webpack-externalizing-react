@@ -11,7 +11,13 @@ Both have same webpack config params.
 
 # Usage 
 
-In order to build the first example, working good, execute: npm run build-good
+In order to build the first example, working good, execute: 
+```sh
+npm run build-good
+```
 In order to build the second example, working bad, execute: npm run build-bad
+```sh
+npm run build-bad
+```
 
 You will see the results in dist folder.
