@@ -25,3 +25,5 @@ You will see the results in dist folder.
 # Why?
 
 It seem Webpack resolver doesn't filter externals inside sources of referenced node packages in node_modules. Probably it makes sense thinking about package name collision.
+
+The problem of second example is it has a reference to react-addons-pure-render-mixin package (that in fact is just a link to react package again). Since this import webpack stop resolving react as external.
